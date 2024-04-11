@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "suministro",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "cantidadPar",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "coche1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "matricula",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "fechaFabricacion",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "obtenerSuministro",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "suministroInicialTokens",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"01. Ejercicios/01. Volumen 1/PruebaConstructorStructMapping.sol": "PruebaConstructorStructMapping"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"01. Ejercicios/01. Volumen 1/PruebaConstructorStructMapping.sol": {
+			"keccak256": "0x0c442341ab073159db52cda6d8b6bba355508e48f745591b7188b5d0b0b33e70",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c2aa30a3cf08358d7930dc36d1d949123a7a5b9f0eab4f5ddefd6685b714218f",
+				"dweb:/ipfs/QmUsYWHbESCWvBeMamwiiF8o7jfvPTePPctwsdAnekboV4"
+			]
+		}
+	},
+	"version": 1
+}
